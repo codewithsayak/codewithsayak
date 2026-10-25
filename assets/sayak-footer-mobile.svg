@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 240" width="620" height="240" role="img" aria-labelledby="skm-foot-title skm-foot-desc">
+  <title id="skm-foot-title">Sayak Karmakar — closing plate</title>
+  <desc id="skm-foot-desc">Compact closing plate reading: Designing quietly, shipping deliberately.</desc>
+  <defs>
+    <linearGradient id="skm-foot-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#10070C"/>
+      <stop offset="1" stop-color="#190B12"/>
+    </linearGradient>
+    <linearGradient id="skm-foot-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C77B9B" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#C77B9B" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#C77B9B" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="skm-foot-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#701A3D" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#701A3D" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      @keyframes skm-foot-pulse { 0%, 100% { opacity: 0.55; } 50% { opacity: 1; } }
+      .skm-foot-pulse { animation: skm-foot-pulse 8s ease-in-out infinite; }
+      @media (prefers-reduced-motion: reduce) { .skm-foot-pulse { animation: none; opacity: 0.85; } }
+    </style>
+  </defs>
+
+  <rect width="620" height="240" fill="url(#skm-foot-bg)"/>
+  <ellipse cx="310" cy="222" rx="270" ry="105" fill="url(#skm-foot-glow)"/>
+  <line x1="0" y1="40" x2="620" y2="40" stroke="url(#skm-foot-line)" stroke-width="1"/>
+
+  <g class="skm-foot-pulse">
+    <rect x="303" y="33" width="14" height="14" transform="rotate(45 310 40)" fill="none" stroke="#C77B9B" stroke-opacity="0.8" stroke-width="1"/>
+    <rect x="307" y="37" width="6" height="6" transform="rotate(45 310 40)" fill="#701A3D"/>
+  </g>
+
+  <text x="310" y="132" text-anchor="middle" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,'DejaVu Serif',serif" font-size="27" font-style="italic" fill="#E5B5C7" fill-opacity="0.92">Designing quietly,</text>
+  <text x="310" y="164" text-anchor="middle" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,'DejaVu Serif',serif" font-size="27" font-style="italic" fill="#E5B5C7" fill-opacity="0.92">shipping deliberately.</text>
+  <g font-family="ui-monospace,'SFMono-Regular','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="15" letter-spacing="2.4" fill="#C77B9B" fill-opacity="0.82">
+    <text x="310" y="202" text-anchor="middle">SAYAK KARMAKAR</text>
+  </g>
+</svg>

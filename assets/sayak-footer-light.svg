@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 170" width="1280" height="170" role="img" aria-labelledby="footl-title footl-desc">
+  <title id="footl-title">Sayak Karmakar — closing plate</title>
+  <desc id="footl-desc">Light-theme closing plate with a travelling hairline and the line Designing quietly, shipping deliberately.</desc>
+
+  <defs>
+    <linearGradient id="footl-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8F0F3"/>
+      <stop offset="1" stop-color="#F3E2E9"/>
+    </linearGradient>
+    <linearGradient id="footl-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#701A3D" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#701A3D" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#701A3D" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="footl-travel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C77B9B" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#701A3D" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#C77B9B" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="footl-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#C77B9B" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#C77B9B" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="footl-clip">
+      <rect x="0" y="33" width="1280" height="2"/>
+    </clipPath>
+    <style>
+      @keyframes footl-drift { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
+      .footl-pulse { animation: footl-drift 8s ease-in-out infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        .footl-pulse { animation: none; opacity: 0.85; }
+        .footl-motion { display: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1280" height="170" fill="url(#footl-bg)"/>
+  <ellipse cx="640" cy="150" rx="420" ry="120" fill="url(#footl-glow)"/>
+
+  <line x1="0" y1="34" x2="1280" y2="34" stroke="url(#footl-line)" stroke-width="1"/>
+  <g clip-path="url(#footl-clip)" class="footl-motion">
+    <rect x="-180" y="32.5" width="180" height="3" fill="url(#footl-travel)">
+      <animate attributeName="x" values="-190; 1290" dur="9s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g class="footl-pulse">
+    <rect x="633" y="27" width="14" height="14" transform="rotate(45 640 34)" fill="none" stroke="#701A3D" stroke-opacity="0.75" stroke-width="1"/>
+    <rect x="637" y="31" width="6" height="6" transform="rotate(45 640 34)" fill="#C77B9B"/>
+  </g>
+
+  <text x="640" y="100" text-anchor="middle" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,'DejaVu Serif',serif" font-size="28" font-style="italic" fill="#451126" fill-opacity="0.85">Designing quietly, shipping deliberately.</text>
+
+  <g font-family="ui-monospace,'SFMono-Regular','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" letter-spacing="2.4" fill="#701A3D" fill-opacity="0.75">
+    <text x="640" y="126" text-anchor="middle">SAYAK KARMAKAR · UI/UX · FULL-STACK · CREATIVE TECHNOLOGIST</text>
+    <text x="640" y="146" text-anchor="middle" fill-opacity="0.55">HAND-BUILT HTML · CSS · SVG · NO TEMPLATES</text>
+  </g>
+</svg>
