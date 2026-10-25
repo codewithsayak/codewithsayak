@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="sk-hero-title sk-hero-desc">
+  <title id="sk-hero-title">Sayak Karmakar — UI/UX Designer, Full-Stack Developer, Creative Technologist</title>
+  <desc id="sk-hero-desc">A midnight burgundy nameplate with a fine technical grid, restrained orbital geometry, and a glowing underline. Motion is decorative only; every element remains visible when animation is disabled.</desc>
+
+  <defs>
+    <linearGradient id="sk-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#190B12"/>
+      <stop offset="0.55" stop-color="#14090F"/>
+      <stop offset="1" stop-color="#10070C"/>
+    </linearGradient>
+
+    <radialGradient id="sk-glow-wine" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#701A3D" stop-opacity="0.55"/>
+      <stop offset="0.55" stop-color="#451126" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#451126" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="sk-glow-rose" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#C77B9B" stop-opacity="0.20"/>
+      <stop offset="0.6" stop-color="#701A3D" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#190B12" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="sk-name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F8F0F3"/>
+      <stop offset="0.72" stop-color="#F8F0F3"/>
+      <stop offset="1" stop-color="#E5B5C7"/>
+    </linearGradient>
+
+    <linearGradient id="sk-rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C77B9B"/>
+      <stop offset="0.45" stop-color="#701A3D"/>
+      <stop offset="1" stop-color="#701A3D" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="sk-rule-shimmer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E5B5C7" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#F8F0F3" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#E5B5C7" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="sk-vrule" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C77B9B" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#C77B9B" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#C77B9B" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="sk-vignette" cx="0.5" cy="0.45" r="0.75">
+      <stop offset="0" stop-color="#10070C" stop-opacity="0"/>
+      <stop offset="0.62" stop-color="#10070C" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#0B0508" stop-opacity="0.85"/>
+    </radialGradient>
+
+    <pattern id="sk-grid-sm" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#E5B5C7" stroke-opacity="0.065" stroke-width="1"/>
+    </pattern>
+
+    <pattern id="sk-grid-lg" width="160" height="160" patternUnits="userSpaceOnUse">
+      <path d="M160 0H0V160" fill="none" stroke="#C77B9B" stroke-opacity="0.10" stroke-width="1"/>
+    </pattern>
+
+    <radialGradient id="sk-grid-fade" cx="0.79" cy="0.5" r="0.62">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="sk-orbit-fade" gradientUnits="userSpaceOnUse" x1="-320" y1="0" x2="-40" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="1"/>
+    </linearGradient>
+
+    <mask id="sk-orbit-mask" maskUnits="userSpaceOnUse" x="-340" y="-340" width="680" height="680">
+      <rect x="-340" y="-340" width="680" height="680" fill="url(#sk-orbit-fade)"/>
+    </mask>
+
+    <mask id="sk-grid-mask">
+      <rect width="1280" height="360" fill="url(#sk-grid-fade)"/>
+    </mask>
+
+    <clipPath id="sk-rule-clip">
+      <rect x="76" y="234" width="540" height="3" rx="1.5"/>
+    </clipPath>
+
+    <filter id="sk-name-shadow" x="-10%" y="-40%" width="120%" height="200%">
+      <feDropShadow dx="0" dy="3" stdDeviation="7" flood-color="#0B0508" flood-opacity="0.65"/>
+    </filter>
+
+    <filter id="sk-glow" x="-60%" y="-400%" width="220%" height="900%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+
+    <filter id="sk-dot-glow" x="-350%" y="-350%" width="800%" height="800%">
+      <feGaussianBlur stdDeviation="3.2"/>
+    </filter>
+
+    <filter id="sk-grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="sk-noise"/>
+      <feColorMatrix in="sk-noise" type="saturate" values="0"/>
+    </filter>
+
+    <style>
+      @keyframes sk-drift {
+        0%, 100% { transform: translate(0, 0); }
+        50%      { transform: translate(22px, -14px); }
+      }
+      @keyframes sk-breathe {
+        0%, 100% { opacity: 0.55; }
+        50%      { opacity: 0.9; }
+      }
+      @keyframes sk-spin {
+        from { transform: rotate(0deg); }
+        to   { transform: rotate(360deg); }
+      }
+      .sk-drift   { animation: sk-drift 19s ease-in-out infinite; }
+      .sk-breathe { animation: sk-breathe 7s ease-in-out infinite; }
+      .sk-spin    { animation: sk-spin 150s linear infinite; transform-box: fill-box; transform-origin: center; }
+      @media (prefers-reduced-motion: reduce) {
+        .sk-drift, .sk-breathe, .sk-spin { animation: none !important; }
+        .sk-motion { display: none; }
+      }
+    </style>
+  </defs>
+
+  <!-- ground -->
+  <rect width="1280" height="360" fill="url(#sk-bg)"/>
+
+  <g class="sk-drift">
+    <ellipse cx="1004" cy="176" rx="330" ry="220" fill="url(#sk-glow-rose)"/>
+    <ellipse cx="140" cy="286" rx="470" ry="250" fill="url(#sk-glow-wine)"/>
+  </g>
+
+  <!-- technical grid, concentrated around the orbital field -->
+  <g mask="url(#sk-grid-mask)">
+    <rect width="1280" height="360" fill="url(#sk-grid-sm)"/>
+    <rect width="1280" height="360" fill="url(#sk-grid-lg)"/>
+  </g>
+
+  <!-- editorial hairlines -->
+  <line x1="716" y1="74" x2="716" y2="300" stroke="url(#sk-vrule)" stroke-width="1"/>
+  <line x1="76" y1="56" x2="150" y2="56" stroke="#C77B9B" stroke-opacity="0.35" stroke-width="1"/>
+  <line x1="1248" y1="56" x2="1248" y2="88" stroke="#C77B9B" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- orbital field -->
+  <g transform="translate(1012 176) rotate(-18)">
+  <g mask="url(#sk-orbit-mask)">
+    <circle r="258" fill="none" stroke="#C77B9B" stroke-opacity="0.16" stroke-width="1" stroke-dasharray="1 14"/>
+    <circle r="204" fill="none" stroke="#E5B5C7" stroke-opacity="0.08" stroke-width="1" stroke-dasharray="2 10"/>
+
+    <ellipse rx="238" ry="106" fill="none" stroke="#C77B9B" stroke-opacity="0.26" stroke-width="1"/>
+    <ellipse rx="188" ry="84" fill="none" stroke="#E5B5C7" stroke-opacity="0.14" stroke-width="1"/>
+    <ellipse rx="136" ry="60" fill="none" stroke="#C77B9B" stroke-opacity="0.19" stroke-width="1" stroke-dasharray="2 7"/>
+
+    <!-- axis ticks -->
+    <g stroke="#E5B5C7" stroke-opacity="0.4" stroke-width="1">
+      <line x1="0" y1="-272" x2="0" y2="-262"/>
+      <line x1="0" y1="262" x2="0" y2="272"/>
+      <line x1="-272" y1="0" x2="-262" y2="0"/>
+      <line x1="262" y1="0" x2="272" y2="0"/>
+    </g>
+
+    <!-- fixed nodes -->
+    <circle cx="0" cy="-106" r="3" fill="#E5B5C7" fill-opacity="0.85"/>
+    <circle cx="238" cy="0" r="2.5" fill="#C77B9B" fill-opacity="0.75"/>
+    <circle cx="-188" cy="0" r="2" fill="#C77B9B" fill-opacity="0.55"/>
+
+    <!-- travelling node (decorative) -->
+    <g class="sk-motion">
+      <circle r="5.5" fill="#E5B5C7" fill-opacity="0.35" filter="url(#sk-dot-glow)">
+        <animateMotion dur="26s" repeatCount="indefinite" rotate="auto"
+          path="M238,0 A238,106 0 1,1 -238,0 A238,106 0 1,1 238,0"/>
+      </circle>
+      <circle r="2.4" fill="#F8F0F3">
+        <animateMotion dur="26s" repeatCount="indefinite" rotate="auto"
+          path="M238,0 A238,106 0 1,1 -238,0 A238,106 0 1,1 238,0"/>
+      </circle>
+    </g>
+
+    <!-- monogram (counter-rotated so it stays optically upright) -->
+    <g transform="rotate(18)">
+    <circle r="52" fill="#140A10" stroke="#451126" stroke-width="1"/>
+    <circle r="43" fill="none" stroke="#C77B9B" stroke-opacity="0.22" stroke-width="1"/>
+    <text x="0" y="7" text-anchor="middle" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,'DejaVu Serif',serif" font-size="27" letter-spacing="2.5" fill="#F8F0F3">SK</text>
+    <line x1="-12" y1="22" x2="12" y2="22" stroke="#C77B9B" stroke-opacity="0.55" stroke-width="1"/>
+    </g>
+
+    <!-- slow armature -->
+    <g class="sk-spin">
+      <ellipse rx="238" ry="106" fill="none" stroke="#E5B5C7" stroke-opacity="0.10" stroke-width="1" stroke-dasharray="34 520"/>
+      <ellipse rx="188" ry="84" fill="none" stroke="#C77B9B" stroke-opacity="0.18" stroke-width="1" stroke-dasharray="16 480"/>
+    </g>
+    </g>
+</g>
+
+  <!-- eyebrows -->
+  <rect x="76" y="103" width="6" height="6" transform="rotate(45 79 106)" fill="#701A3D" stroke="#C77B9B" stroke-opacity="0.7"/>
+  <text x="94" y="110" font-family="ui-monospace,'SFMono-Regular','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" letter-spacing="4.8" fill="#C77B9B">DESIGN × CODE</text>
+
+  <!-- name -->
+  <text x="74" y="202" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,'DejaVu Serif',serif" font-size="82" letter-spacing="0.4" fill="url(#sk-name)" filter="url(#sk-name-shadow)">Sayak Karmakar</text>
+
+  <!-- glowing underline -->
+  <g class="sk-breathe">
+    <rect x="76" y="234" width="536" height="4" rx="2" fill="#701A3D" fill-opacity="0.45" filter="url(#sk-glow)"/>
+  </g>
+  <rect x="76" y="234" width="540" height="2" rx="1" fill="url(#sk-rule)"/>
+  <g clip-path="url(#sk-rule-clip)" class="sk-motion">
+    <rect class="sk-shimmer" x="-140" y="233" width="150" height="4" fill="url(#sk-rule-shimmer)">
+      <animate attributeName="x" values="-150; 600" dur="6.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- role line, tagline, verified meta -->
+  <text x="76" y="272" font-family="ui-monospace,'SFMono-Regular','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" letter-spacing="1.2" fill="#E5B5C7" fill-opacity="0.95">UI/UX DESIGNER · FULL-STACK DEVELOPER · CREATIVE TECHNOLOGIST</text>
+  <text x="76" y="308" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,'DejaVu Serif',serif" font-size="22" font-style="italic" fill="#E5B5C7" fill-opacity="0.76">Calm interfaces, built with care.</text>
+
+  <g font-family="ui-monospace,'SFMono-Regular','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" letter-spacing="1.8" fill="#C77B9B" fill-opacity="0.8">
+    <text x="76" y="340">INDIA · REMOTE</text>
+    <circle cx="198" cy="336.5" r="1.6" fill="#701A3D" stroke="none"/>
+    <text x="214" y="340">OPEN TO COLLABORATION</text>
+  </g>
+
+  <!-- atmosphere -->
+  <rect width="1280" height="360" fill="url(#sk-vignette)"/>
+  <rect width="1280" height="360" filter="url(#sk-grain)" opacity="0.035"/>
+  <rect x="0.5" y="0.5" width="1279" height="359" rx="0" fill="none" stroke="#E5B5C7" stroke-opacity="0.08"/>
+</svg>

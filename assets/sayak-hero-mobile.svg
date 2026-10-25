@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 430" width="620" height="430" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="skm-title skm-desc">
+  <title id="skm-title">Sayak Karmakar — UI/UX Designer, Full-Stack Developer, Creative Technologist</title>
+  <desc id="skm-desc">Compact burgundy nameplate for narrow screens, with a fine grid and a small orbital monogram.</desc>
+  <defs>
+    <linearGradient id="skm-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#190B12"/>
+      <stop offset="0.55" stop-color="#14090F"/>
+      <stop offset="1" stop-color="#10070C"/>
+    </linearGradient>
+    <radialGradient id="skm-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#701A3D" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#701A3D" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="skm-name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F8F0F3"/>
+      <stop offset="0.7" stop-color="#F8F0F3"/>
+      <stop offset="1" stop-color="#E5B5C7"/>
+    </linearGradient>
+    <linearGradient id="skm-rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E5B5C7"/>
+      <stop offset="0.5" stop-color="#701A3D"/>
+      <stop offset="1" stop-color="#701A3D" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="skm-grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#E5B5C7" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="skm-fade" cx="0.8" cy="0.35" r="0.6">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="skm-fade-mask">
+      <rect width="620" height="430" fill="url(#skm-fade)"/>
+    </mask>
+    <filter id="skm-soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <style>
+      @keyframes skm-breathe { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
+      @keyframes skm-drift { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(10px, -8px); } }
+      .skm-breathe { animation: skm-breathe 7s ease-in-out infinite; }
+      .skm-drift { animation: skm-drift 18s ease-in-out infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        .skm-breathe, .skm-drift { animation: none !important; }
+        .skm-motion { display: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="760" height="440" fill="url(#skm-bg)"/>
+  <g class="skm-drift">
+    <ellipse cx="508" cy="120" rx="220" ry="160" fill="url(#skm-glow)"/>
+    <ellipse cx="70" cy="392" rx="280" ry="140" fill="url(#skm-glow)" opacity="0.55"/>
+  </g>
+  <g mask="url(#skm-fade-mask)">
+    <rect width="620" height="430" fill="url(#skm-grid)"/>
+  </g>
+
+  <g transform="translate(508 116) rotate(-16)">
+    <circle r="78" fill="none" stroke="#C77B9B" stroke-opacity="0.26" stroke-width="1"/>
+    <ellipse rx="70" ry="30" fill="none" stroke="#E5B5C7" stroke-opacity="0.2" stroke-width="1"/>
+    <ellipse rx="46" ry="66" fill="none" stroke="#C77B9B" stroke-opacity="0.16" stroke-width="1" stroke-dasharray="2 8"/>
+    <g class="skm-motion">
+      <circle r="3" fill="#E5B5C7" fill-opacity="0.6" filter="url(#skm-soft)">
+        <animateMotion dur="22s" repeatCount="indefinite" path="M70,0 A70,30 0 1,1 -70,0 A70,30 0 1,1 70,0"/>
+      </circle>
+      <circle r="1.8" fill="#E5B5C7">
+        <animateMotion dur="22s" repeatCount="indefinite" path="M70,0 A70,30 0 1,1 -70,0 A70,30 0 1,1 70,0"/>
+      </circle>
+    </g>
+    <g transform="rotate(16)">
+      <circle r="38" fill="#140A10" stroke="#451126" stroke-width="1"/>
+      <text x="0" y="4" text-anchor="middle" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,'DejaVu Serif',serif" font-size="21" letter-spacing="2" fill="#F8F0F3">SK</text>
+      <line x1="-9" y1="15" x2="9" y2="15" stroke="#C77B9B" stroke-opacity="0.6" stroke-width="1"/>
+    </g>
+  </g>
+
+  <rect x="34" y="196" width="7" height="7" transform="rotate(45 37.5 199.5)" fill="none" stroke="#C77B9B" stroke-opacity="0.8"/>
+  <text x="54" y="204" font-family="ui-monospace,'SFMono-Regular','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="15" letter-spacing="4.6" fill="#C77B9B">DESIGN × CODE</text>
+
+  <text x="32" y="288" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,'DejaVu Serif',serif" font-size="58" letter-spacing="0.2" fill="url(#skm-name)">Sayak Karmakar</text>
+
+  <g class="skm-breathe">
+    <rect x="34" y="306" width="330" height="6" rx="3" fill="#701A3D" fill-opacity="0.42" filter="url(#skm-soft)"/>
+  </g>
+  <rect x="34" y="309" width="330" height="2.4" rx="1.2" fill="url(#skm-rule)"/>
+
+  <text x="34" y="348" font-family="ui-monospace,'SFMono-Regular','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="17" letter-spacing="1.5" fill="#E5B5C7" fill-opacity="0.96">UI/UX · FULL-STACK · CREATIVE TECHNOLOGIST</text>
+  <text x="34" y="380" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,'DejaVu Serif',serif" font-size="22" font-style="italic" fill="#E5B5C7" fill-opacity="0.74">Calm interfaces, built with care.</text>
+
+  <g font-family="ui-monospace,'SFMono-Regular','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="15" letter-spacing="1.8" fill="#C77B9B" fill-opacity="0.85">
+    <text x="34" y="414">INDIA · REMOTE · OPEN TO COLLABORATION</text>
+  </g>
+
+  <rect x="0.6" y="0.6" width="618.8" height="428.8" fill="none" stroke="#E5B5C7" stroke-opacity="0.1"/>
+</svg>

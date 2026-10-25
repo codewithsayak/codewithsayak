@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 64" width="1280" height="64" role="img" aria-label="Decorative section divider">
+  <title>Section divider</title>
+  <desc>An editorial hairline divider with a centred burgundy diamond, light theme.</desc>
+  <defs>
+    <linearGradient id="divl-rule-l" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#701A3D" stop-opacity="0"/>
+      <stop offset="1" stop-color="#701A3D" stop-opacity="0.45"/>
+    </linearGradient>
+    <linearGradient id="divl-rule-r" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#701A3D" stop-opacity="0"/>
+      <stop offset="1" stop-color="#701A3D" stop-opacity="0.45"/>
+    </linearGradient>
+    <style>
+      @keyframes divl-pulse { 0%, 100% { opacity: 0.55; } 50% { opacity: 1; } }
+      .divl-pulse { animation: divl-pulse 6s ease-in-out infinite; }
+      @media (prefers-reduced-motion: reduce) { .divl-pulse { animation: none; opacity: 0.85; } }
+    </style>
+  </defs>
+  <line x1="440" y1="32" x2="628" y2="32" stroke="url(#divl-rule-l)" stroke-width="1"/>
+  <line x1="652" y1="32" x2="840" y2="32" stroke="url(#divl-rule-r)" stroke-width="1"/>
+  <g class="divl-pulse">
+    <rect x="633" y="25" width="14" height="14" transform="rotate(45 640 32)" fill="none" stroke="#701A3D" stroke-opacity="0.7" stroke-width="1"/>
+    <rect x="637" y="29" width="6" height="6" transform="rotate(45 640 32)" fill="#C77B9B"/>
+  </g>
+</svg>

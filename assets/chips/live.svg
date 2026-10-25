@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 145 34" width="145" height="34" role="img" aria-label="Live Site">
+  <title>Live Site</title>
+  <defs>
+    <linearGradient id="chip-live-fill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1A0C13"/>
+      <stop offset="1" stop-color="#10070C"/>
+    </linearGradient>
+    <linearGradient id="chip-live-edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C77B9B" stop-opacity="0.55"/>
+      <stop offset="0.6" stop-color="#701A3D" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#451126"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="143.5" height="32.5" rx="16.25" fill="url(#chip-live-fill)" stroke="url(#chip-live-edge)" stroke-width="1.4"/>
+  <rect x="14" y="14.0" width="6" height="6" transform="rotate(45 17 17.0)" fill="#701A3D" stroke="#C77B9B" stroke-opacity="0.85" stroke-width="0.9"/>
+  <text x="26" y="20.6" font-family="ui-monospace,'SFMono-Regular','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" letter-spacing="2.2" fill="#E5B5C7">LIVE SITE</text>
+  <g stroke="#C77B9B" stroke-opacity="0.9" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M120 20.5 L127 13.5"/>
+    <path d="M121.4 13.5 L127 13.5 L127 18.9"/>
+  </g>
+</svg>
