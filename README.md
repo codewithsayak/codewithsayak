@@ -13,6 +13,13 @@
 
 <br>
 
+> **Portfolio v2 — Code with character.** The interactive portfolio has been
+> rebuilt with **React + Node.js**, scroll-driven storytelling, a Three.js
+> sculpture, and a working gradient playground. Run it with `npm install` then
+> `npm run dev`, or see **[PORTFOLIO.md](PORTFOLIO.md)** for the full guide.
+> The GitHub profile artwork below remains the original hand-built SVG edition.
+
+
 ## The short version
 
 I design and build for the web: the interface first, everything else in service of it.

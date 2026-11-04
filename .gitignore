@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.arena/
+.env
+.env.*
+!.env.example
+.playwright-cli/
+playwright-report/
+test-results/
+coverage/
+*.log
+.DS_Store
+.venv/
+__pycache__/

@@ -1,0 +1,12 @@
+node_modules
+dist
+.git
+.arena
+.cache
+test-results
+playwright-report
+coverage
+*.log
+.env
+.env.*
+.DS_Store
